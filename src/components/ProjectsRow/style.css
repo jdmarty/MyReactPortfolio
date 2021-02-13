@@ -1,0 +1,10 @@
+/* Project Card */
+.project-card {
+  padding: 15px;
+}
+
+/* Project Card Image */
+.project-card-img {
+  width: 100%;
+  height: auto;
+}

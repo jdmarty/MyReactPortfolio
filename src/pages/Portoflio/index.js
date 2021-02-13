@@ -1,18 +1,19 @@
 import React, { useState } from "react";
 // Components
 import Featured from "../../components/Featured";
+import ProjectsRow from "../../components/ProjectsRow"
 // thumbnails
 import codeQuiz from "./images/codeQuiz.PNG";
 import dreamTeam from "./images/dreamTeam.PNG";
 import jammming from "./images/jammming_codecademy.png";
 import nutriSpot from "./images/nutriSpot.PNG";
 // projects data
-import Projects from "./projects";
+import projects from "./projects";
 
 const Portfolio = () => {
   const images = { codeQuiz, dreamTeam, jammming, nutriSpot}
   const [featuredImage, setFeaturedImage] = useState(images.dreamTeam)
-  const [featured, setFeatured] = useState(Projects.dreamTeam);
+  const [featured, setFeatured] = useState(projects.dreamTeam);
   
 
   return (
@@ -27,6 +28,7 @@ const Portfolio = () => {
         deployedLink={featured.deployedLink}
         repoLink={featured.repoLink}
       />
+      <ProjectsRow projects={projects}/>
     </main>
   );
 };
