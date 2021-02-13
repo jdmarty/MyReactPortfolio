@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// Components
 import Featured from "../../components/Featured";
 // thumbnails
 import codeQuiz from "./images/codeQuiz.PNG";
@@ -22,6 +23,7 @@ const Portfolio = () => {
         title={featured.title}
         description={featured.description}
         descriptionCont={featured.descriptionCont}
+        tech={featured.tech}
         deployedLink={featured.deployedLink}
         repoLink={featured.repoLink}
       />

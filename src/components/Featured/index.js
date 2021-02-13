@@ -1,6 +1,21 @@
 import React from "react";
+import "./style.css"
 
 const Featured = (props) => {
+  const renderTechButtons = (tech) => {
+    return tech.map((item, index) => {
+      if (item.type === "image") {
+        return <img src={item.src} alt={item.alt} className="featured-tech" />
+      } else if (item.type === "span") {
+        return <span className={item.class}>{item.text}</span>
+      } else if (item.type === "icon-span") {
+        return <span className={item.class}>
+          <i className={item.iconClass}></i>
+          {item.text}
+        </span>
+      }
+    })
+  }
   return (
     <section className="row py-2 bg-secondary fade-in-fast" id="featured">
       <aside className="col-lg-6 col-12">
@@ -24,14 +39,15 @@ const Featured = (props) => {
         <div
           className="d-flex justify-content-center flex-wrap"
           id="featured-tech-cont"
-        ></div>
-        <div className="text-center">
+        >
+          {renderTechButtons(props.tech)}
+        </div>
+        <div className="text-center link-buttons">
           <a
             href={props.deployedLink}
             target="_blank"
             rel="noreferrer"
-            className="btn btn-lg rounded-pill btn-success my-4 mx-4"
-            id="featured-deployed-link"
+            className="btn btn-success featured-link"
           >
             Live Link
           </a>
@@ -39,8 +55,7 @@ const Featured = (props) => {
             href={props.repoLink}
             target="_blank"
             rel="noreferrer"
-            className="btn btn-lg rounded-pill btn-warning my-4 mx-4"
-            id="featured-repo-link"
+            className="btn btn-warning featured-link"
           >
             Repository
           </a>

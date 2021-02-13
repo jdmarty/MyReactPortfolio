@@ -23,6 +23,8 @@
 
 .featured-tech-span {
   padding: 5px 10px;
+  margin: 12px;
+  border-radius: 15px;
   font-weight: 700;
   font-family:'Tahoma', 'Arial Narrow', Arial, sans-serif;
 }
@@ -41,7 +43,7 @@
   background-color: #1DB954;
 }
 
-.featured-link {
+.link-buttons .featured-link {
   margin: 20px 5px;
   padding: 10px;
   min-width: 25%;
