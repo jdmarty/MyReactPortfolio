@@ -1,0 +1,61 @@
+/* Featured Panel */
+#featured {
+  border-radius: 15px;
+}
+
+/* Featured Image */
+#featured-image {
+  border-radius: 15px;
+  margin: 15px;
+}
+
+/* Featured Tech Buttons */
+#featured-tech-cont {
+  margin: 15px auto;
+  font-size: 0.85em;
+}
+
+.featured-tech {
+  margin: 12px;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.featured-tech-span {
+  padding: 5px 10px;
+  font-weight: 700;
+  font-family:'Tahoma', 'Arial Narrow', Arial, sans-serif;
+}
+
+.yelp {
+  background-color: #C41200
+}
+
+.handlebars {
+  color: #fff;
+  background-color: #df691a;
+}
+
+.spotify {
+  color: #191414;
+  background-color: #1DB954;
+}
+
+.featured-link {
+  margin: 20px 5px;
+  padding: 10px;
+  min-width: 25%;
+  font-size: 1.25em;
+  border-radius: 15px;
+}
+
+/* Project Card */
+.project-card {
+  padding: 15px;
+}
+
+/* Project Card Image */
+.project-card-img {
+  width: 100%;
+  height: auto;
+}

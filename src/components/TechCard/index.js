@@ -3,7 +3,7 @@ import { useInView } from "react-intersection-observer";
 
 
 const TechCard = (props) => {
-  const { ref, inView, entry } = useInView();
+  const { ref, inView } = useInView();
 
   const renderCardText = (textArray) => {
     return textArray.map((item, index) => {
