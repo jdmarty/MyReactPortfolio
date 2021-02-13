@@ -1,6 +1,10 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
+
 
 const TechCard = (props) => {
+  const { ref, inView, entry } = useInView();
+
   const renderCardText = (textArray) => {
     return textArray.map((item, index) => {
       return (
@@ -17,18 +21,19 @@ const TechCard = (props) => {
           return <i className={`fa-lg ${item} mx-3`} key={index * Math.random()}></i>
       })
   }
+
   return (
-    <article className="card my-3 tech-card" id="tech-card-1">
-      <header className="card-header pb-0 bg-primary">
-        <h5 className="card-title">{props.title}</h5>
-      </header>
-      <main className="card-body">
-        <p className="card-text">{renderCardText(props.cardText)}</p>
-      </main>
-      <footer className="card-footer tech-card-footer">
-        {renderBadges(props.badges)}
-      </footer>
-    </article>
+      <article className={"card my-3 tech-card "+ (inView && "fade-rise"+props.delay)} id="tech-card-1" ref={ref}>
+        <header className="card-header pb-0 bg-primary">
+          <h5 className="card-title">{props.title}</h5>
+        </header>
+        <main className="card-body">
+          <div className="card-text">{renderCardText(props.cardText)}</div>
+        </main>
+        <footer className="card-footer tech-card-footer">
+          {renderBadges(props.badges)}
+        </footer>
+      </article>
   );
 };
 

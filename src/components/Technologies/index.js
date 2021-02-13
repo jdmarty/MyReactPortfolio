@@ -10,6 +10,7 @@ const Technologies = () => {
           title="Languages"
           cardText={["HTML5", "CSS3", "JavaScript", "SQL"]}
           badges={["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"]}
+          delay="1"
         />
       </div>
       <div className="col-12 col-md-6 col-lg-3">
@@ -17,6 +18,7 @@ const Technologies = () => {
           title="Front End Tools"
           cardText={["React", "Bootstrap", "Tailwind", "jQuery"]}
           badges={["fab fa-react", "fab fa-bootstrap", "fab fa-css3"]}
+          delay="2"
         />
       </div>
       <div className="col-12 col-md-6 col-lg-3">
@@ -24,6 +26,7 @@ const Technologies = () => {
           title="Back End Tools"
           cardText={["Node.js", "Express.js", "MySQL", "MongoDB"]}
           badges={["fab fa-node", "fad fa-database", "fas fa-router"]}
+          delay="3"
         />
       </div>
       <div className="col-12 col-md-6 col-lg-3">
@@ -31,6 +34,7 @@ const Technologies = () => {
           title="Development"
           cardText={["Github", "VSCode", "Heroku", "OAuth 2"]}
           badges={["fab fa-github", "fas fa-code-merge", "fas fa-layer-group"]}
+          delay="4"
         />
       </div>
     </section>
