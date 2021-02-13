@@ -1,0 +1,97 @@
+/* Computer Image Stacking */
+.scale-img {
+  width: 100%;
+  height: auto;
+}
+
+.screen-box {
+  box-sizing: content-box;
+  padding: 20% 0;
+}
+
+.image-stack::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.image-stack__item--top {
+  float: left;
+  width: 75.8%;
+  margin-right: -100%;
+  padding-top: 6%;
+  padding-left: 24.4%;
+  position: relative;
+  z-index: 1;
+}
+
+.image-stack__item--bottom {
+  float: right;
+  width: 100%;
+}
+
+/* Computer Screen Content */
+.screen-text {
+  font-size: 1.8vw;
+}
+
+#screen-button {
+  font-size: 2vw;
+  border-radius: 10px;
+}
+
+/* ==== ANIMATIONS ==== */
+
+/* Simple Fade In */
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
