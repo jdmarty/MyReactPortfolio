@@ -3,6 +3,7 @@ import MainHeader from "../../components/MainHeader"
 import Hero from "../../components/Hero"
 import Description from "../../components/Description"
 import Qualifications from "../../components/Qualifications"
+import Technologies from "../../components/Technologies";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <Hero />
         <Description />
         <Qualifications />
+        <Technologies />
     </main>
   );
 };

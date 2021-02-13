@@ -1,0 +1,20 @@
+/* Shifted Row */
+.shifted-row {
+  transform: translateY(-75px);
+}
+
+/* Tech Cards */
+.tech-card {
+  box-shadow: 2px 4px 10px rgba(39, 39, 39, 0.533);
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .tech-card {
+    display: block;
+  }
+}
+
+.tech-card-footer {
+  padding: 5% 15%;
+}
