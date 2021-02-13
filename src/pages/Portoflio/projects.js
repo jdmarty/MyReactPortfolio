@@ -2,7 +2,7 @@ const projects = {
   codeQuiz: {
     title: "Code Quiz",
     image: {
-      src: "assets/Images/codeQuiz.PNG",
+      src: "codeQuiz",
       alt: "Code Quiz",
     },
     description:
@@ -46,7 +46,7 @@ const projects = {
   nutriSpot: {
     title: "NutriSpot",
     image: {
-      src: "assets/Images/nutriSpot.PNG",
+      src: "nutriSpot",
       alt: "Nutrispot",
     },
     description:
@@ -84,7 +84,7 @@ const projects = {
   jammming: {
     title: "Jammming with JD",
     image: {
-      src: "assets/Images/jammming_codecademy.png",
+      src: "jammming",
       alt: "Jamming with JD",
     },
     description:
@@ -122,7 +122,7 @@ const projects = {
   dreamTeam: {
     title: "Dream Team",
     image: {
-      src: "assets/Images/DreamTeam.PNG",
+      src: "dreamTeam",
       alt: "Dream Team",
     },
     description:

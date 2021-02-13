@@ -15,6 +15,10 @@ const Portfolio = () => {
   const [featuredImage, setFeaturedImage] = useState(images.dreamTeam)
   const [featured, setFeatured] = useState(projects.dreamTeam);
   
+  const handleProjectClick = (project) => {
+    setFeatured(project)
+    setFeaturedImage(images[project.image.src])
+  }
 
   return (
     <main className="container-fluid px-0 px-lg-5">
@@ -28,7 +32,10 @@ const Portfolio = () => {
         deployedLink={featured.deployedLink}
         repoLink={featured.repoLink}
       />
-      <ProjectsRow projects={projects}/>
+      <ProjectsRow 
+        projects={projects} 
+        images={images}
+        onClick={handleProjectClick}/>
     </main>
   );
 };
