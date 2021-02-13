@@ -4,6 +4,7 @@ import Hero from "../../components/Hero"
 import Description from "../../components/Description"
 import Qualifications from "../../components/Qualifications"
 import Technologies from "../../components/Technologies";
+import Contact from "../../components/Contact"
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Description />
         <Qualifications />
         <Technologies />
+        <Contact />
     </main>
   );
 };

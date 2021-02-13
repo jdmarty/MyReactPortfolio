@@ -1,0 +1,19 @@
+/* Contact-box */
+.contact-box {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 1%;
+}
+
+@media only screen and (max-width: 992px) {
+  .contact-box {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contact-box {
+    width: 100%;
+  }
+}
