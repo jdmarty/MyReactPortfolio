@@ -8,11 +8,36 @@ const projects = {
     description:
       "Quiz app that prompts the user to answer web-development related questions and maintains a high score board.",
     tech: [
-      '<img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>',
-      '<img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>',
-      '<img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>',
-      '<img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/>',
-      '<img alt="jQuery" src="https://img.shields.io/badge/jquery%20-%230769AD.svg?&style=for-the-badge&logo=jquery&logoColor=white"/>',
+      {
+        type: "image",
+        alt: "HTML5",
+        src:
+          "https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white",
+      },
+      {
+        type: "image",
+        alt: "C333",
+        src:
+          "https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white",
+      },
+      {
+        type: "image",
+        alt: "JavaScript",
+        src:
+          "https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+      },
+      {
+        type: "image",
+        alt: "Bootstrap",
+        src:
+          "https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white",
+      },
+      {
+        type: "image",
+        alt: "jQuery",
+        src:
+          "https://img.shields.io/badge/jquery%20-%230769AD.svg?&style=for-the-badge&logo=jquery&logoColor=white",
+      },
     ],
     repoLink: "https://github.com/jdmarty/codeQuiz",
     deployedLink: "https://jdmarty.github.io/codeQuiz/",
@@ -27,10 +52,30 @@ const projects = {
     description:
       "Front End Application that uses the Spoonacular and Yelp API to combine a healthy recipe search and a search for local restaurants",
     tech: [
-      '<img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>',
-      '<img alt="jQuery" src="https://img.shields.io/badge/jquery%20-%230769AD.svg?&style=for-the-badge&logo=jquery&logoColor=white"/>',
-      '<img alt="Heroku" src="https://img.shields.io/badge/heroku%20-%23430098.svg?&style=for-the-badge&logo=heroku&logoColor=white"/>',
-      '<span class="featured-tech-span yelp"><i class="fab fa-yelp mx-2"></i>Yelp API</span>',
+      {
+        type: "image",
+        alt: "JavaScript",
+        src:
+          "https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+      },
+      {
+        type: "image",
+        alt: "jQuery",
+        src:
+          "https://img.shields.io/badge/jquery%20-%230769AD.svg?&style=for-the-badge&logo=jquery&logoColor=white",
+      },
+      {
+        type: "image",
+        alt: "Heroku",
+        src:
+          "https://img.shields.io/badge/heroku%20-%23430098.svg?&style=for-the-badge&logo=heroku&logoColor=white",
+      },
+      {
+        type: "icon-span",
+        text: "Yelp API",
+        class: "featured-tech-span yelp",
+        iconClass: "fab fa-yelp mx-2",
+      },
     ],
     repoLink: "https://github.com/jdmarty/scoop",
     deployedLink: "https://jdmarty.github.io/scoop/",
