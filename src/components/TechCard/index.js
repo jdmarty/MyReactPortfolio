@@ -23,7 +23,7 @@ const TechCard = (props) => {
   }
 
   return (
-      <article className={"card my-3 tech-card "+ (inView && "fade-rise"+props.delay)} id="tech-card-1" ref={ref}>
+      <article className={"card my-3 tech-card "+ (inView && "fade-rise"+props.delay)} ref={ref}>
         <header className="card-header pb-0 bg-primary">
           <h5 className="card-title">{props.title}</h5>
         </header>
