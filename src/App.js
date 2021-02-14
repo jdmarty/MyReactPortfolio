@@ -13,7 +13,7 @@ function App() {
 
   // When the app mounts, check the page location
   useEffect(() => {
-    if (window.location.pathname === "/portfolio") {
+    if (window.location.pathname === "/MyReactPortfolio/portfolio") {
       setPage("portfolio")
     } else {
       setPage("home")
@@ -23,9 +23,13 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Header page={page}/>
-        <Route exact path={["/", "/home"]} component={Home} />
-        <Route exact path="/portfolio" component={Portfolio} />
+        <Header page={page} />
+        <Route
+          exact
+          path={["/MyReactPortfolio", "/MyReactPortfolio/home"]}
+          component={Home}
+        />
+        <Route exact path="/MyReactPortfolio/portfolio" component={Portfolio} />
         <Footer />
       </Router>
     </div>
