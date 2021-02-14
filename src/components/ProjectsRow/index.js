@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 import ProjectsCard from "../ProjectsCard";
 
 const ProjectsRow = (props) => {
@@ -11,6 +10,7 @@ const ProjectsRow = (props) => {
             project={projects[name]}
             image={images[projects[name].image.src]}
             onClick={props.onClick}
+            animation={"fade-slide"+(index+1)}
             key={"project" + index} />
       )
     });

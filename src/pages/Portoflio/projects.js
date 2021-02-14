@@ -82,6 +82,38 @@ const projects = {
     deployedLink: "https://jdmarty.github.io/scoop/",
   },
 
+  workforceDirectory: {
+    title: "Workforce Directory",
+    image: {
+      src: "workforce",
+      alt: "Workforce Directory",
+    },
+    description:
+      "React-based concept project to demonstrate different table sorting algorithms. Columns can be sorted by name, username, city, or country. Age and registration date can be sorted in ascending or descending order",
+    tech: [
+      {
+        type: "image",
+        alt: "React",
+        src:
+          "https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB",
+      },
+      {
+        type: "image",
+        alt: "JavaScript",
+        src:
+          "https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+      },
+      {
+        type: "image",
+        alt: "Tailwind CSS",
+        src:
+          "https://img.shields.io/badge/tailwindcss%20-%2338B2AC.svg?&style=for-the-badge&logo=tailwind-css&logoColor=white",
+      },
+    ],
+    repoLink: "https://jdmarty.github.io/workforceDirectory/",
+    deployedLink: "https://github.com/jdmarty/workforceDirectory",
+  },
+
   jammming: {
     title: "Jammming with JD",
     image: {

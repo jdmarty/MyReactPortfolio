@@ -7,11 +7,12 @@ import codeQuiz from "./images/codeQuiz.PNG";
 import dreamTeam from "./images/dreamTeam.PNG";
 import jammming from "./images/jammming_codecademy.png";
 import nutriSpot from "./images/nutriSpot.PNG";
+import workforce from "./images/workforce.PNG"
 // projects data
 import projects from "./projects";
 
 const Portfolio = () => {
-  const images = { codeQuiz, dreamTeam, jammming, nutriSpot}
+  const images = { codeQuiz, dreamTeam, jammming, nutriSpot, workforce}
   const [featuredImage, setFeaturedImage] = useState(images.dreamTeam)
   const [featured, setFeatured] = useState(projects.dreamTeam);
   
@@ -21,9 +22,9 @@ const Portfolio = () => {
     setFeaturedImage(images[project.image.src])
     // Hack to re-start the fade in animation
     const featured = document.querySelector("#featured")
-    featured.classList.remove("fade-in-fast")
+    featured.classList.remove("fade-in-slide-down")
     void featured.offsetWidth;
-    featured.classList.add("fade-in-fast")
+    featured.classList.add("fade-in-slide-down")
   }
 
   return (
