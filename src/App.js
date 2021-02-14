@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+// Pages
 import Home from "./pages/Home"
 import Portfolio from "./pages/Portoflio"
+// Permanent Components
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 import './App.css';
 
 function App() {
@@ -23,6 +26,7 @@ function App() {
         <Header page={page}/>
         <Route exact path={["/", "/home"]} component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
+        <Footer />
       </Router>
     </div>
   );

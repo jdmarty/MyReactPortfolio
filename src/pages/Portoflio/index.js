@@ -29,7 +29,7 @@ const Portfolio = () => {
   }
 
   return (
-    <main className="container-fluid px-0 px-lg-5">
+    <main className="container-fluid px-1 px-lg-5">
       <Featured
         image={featuredImage}
         alt={featured.image.alt}
@@ -40,7 +40,7 @@ const Portfolio = () => {
         deployedLink={featured.deployedLink}
         repoLink={featured.repoLink}
       />
-      <ProjectsRow 
+      <ProjectsRow
         projects={projects} 
         images={images}
         onClick={handleProjectClick}/>
