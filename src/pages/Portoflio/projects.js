@@ -110,8 +110,8 @@ const projects = {
           "https://img.shields.io/badge/tailwindcss%20-%2338B2AC.svg?&style=for-the-badge&logo=tailwind-css&logoColor=white",
       },
     ],
-    repoLink: "https://jdmarty.github.io/workforceDirectory/",
-    deployedLink: "https://github.com/jdmarty/workforceDirectory",
+    repoLink: "https://github.com/jdmarty/workforceDirectory/",
+    deployedLink: "https://jdmarty.github.io/workforceDirectory/",
   },
 
   jammming: {
