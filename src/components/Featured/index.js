@@ -5,17 +5,31 @@ const Featured = (props) => {
   const renderTechButtons = (tech) => {
     return tech.map((item, index) => {
       if (item.type === "image") {
-        return <img src={item.src} alt={item.alt} className="featured-tech" />
+        return (
+          <img
+            src={item.src}
+            alt={item.alt}
+            key={"tb" + index}
+            className="featured-tech"
+          />
+        );
       } else if (item.type === "span") {
-        return <span className={item.class}>{item.text}</span>
+        return (
+          <span className={item.class} key={"tb" + index}>
+            {item.text}
+          </span>
+        );
       } else if (item.type === "icon-span") {
-        return <span className={item.class}>
-          <i className={item.iconClass}></i>
-          {item.text}
-        </span>
+        return (
+          <span className={item.class} key={"tb" + index}>
+            <i className={item.iconClass}></i>
+            {item.text}
+          </span>
+        );
       }
     })
   }
+  
   return (
     <section className="row py-2 bg-secondary fade-in-fast" id="featured">
       <aside className="col-lg-6 col-12">

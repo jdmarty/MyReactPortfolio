@@ -16,8 +16,14 @@ const Portfolio = () => {
   const [featured, setFeatured] = useState(projects.dreamTeam);
   
   const handleProjectClick = (project) => {
+    // set the featured project
     setFeatured(project)
     setFeaturedImage(images[project.image.src])
+    // Hack to re-start the fade in animation
+    const featured = document.querySelector("#featured")
+    featured.classList.remove("fade-in-fast")
+    void featured.offsetWidth;
+    featured.classList.add("fade-in-fast")
   }
 
   return (
