@@ -1,12 +1,12 @@
 import React from "react";
-import ProjectsCard from "../ProjectsCard";
+import Project from "../Project";
 
 const ProjectsRow = (props) => {
   const renderProjectCards = (projects, images) => {
     const projectNames = Object.keys(projects);
     return projectNames.map((name, index) => {
       return (
-        <ProjectsCard 
+        <Project
             project={projects[name]}
             image={images[projects[name].image.src]}
             onClick={props.onClick}

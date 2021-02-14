@@ -4,6 +4,7 @@ import "./style.css"
 
 const Description = () => {
   return (
+    // Description section
     <section className="row text-center py-5">
       <div className="col-1 d-flex justify-content-center my-auto">
         <i className="fab fa-3x fa-react"></i>
