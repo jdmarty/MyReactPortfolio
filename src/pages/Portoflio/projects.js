@@ -121,7 +121,7 @@ const projects = {
       alt: "Jamming with JD",
     },
     description:
-      "An app built with React and the Spotify API that allows users to search the Spotify library and create new playlists.",
+      "An app built with React and the Spotify API that allows users to search the Spotify library and create new playlists. Capstone for the Codecademy Web Development React Course.",
     tech: [
       {
         type: "image",

@@ -31,7 +31,7 @@ const Featured = (props) => {
   }
   
   return (
-    <section className="row py-2 bg-secondary fade-in-slide-down" id="featured">
+    <section className="row py-2 bg-secondary fade-in d-none" id="featured">
       <aside className="col-lg-6 col-12">
         <img
           src={props.image}

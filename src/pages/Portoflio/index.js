@@ -22,9 +22,10 @@ const Portfolio = () => {
     setFeaturedImage(images[project.image.src])
     // Hack to re-start the fade in animation
     const featured = document.querySelector("#featured")
-    featured.classList.remove("fade-in-slide-down")
+    featured.classList.remove("fade-in")
+    featured.classList.remove("d-none");
     void featured.offsetWidth;
-    featured.classList.add("fade-in-slide-down")
+    featured.classList.add("fade-in")
   }
 
   return (
