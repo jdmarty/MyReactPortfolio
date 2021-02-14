@@ -19,7 +19,7 @@ const Contact = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fab fa-2x fa-linkedin"></i>
+            <i className="fab fa-2x fa-linkedin contact-linkedin"></i>
           </a>
           {/* Link to github profile */}
           <a
@@ -28,11 +28,11 @@ const Contact = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fab fa-2x fa-github"></i>
+            <i className="fab fa-2x fa-github contact-github"></i>
           </a>
           {/* Link to email */}
           <a href="mailto: joshua.dmarty@gmail.com" className="text-white">
-            <i className="fas fa-2x fa-envelope"></i>
+            <i className="fas fa-2x fa-envelope contact-email"></i>
           </a>
         </div>
       </div>

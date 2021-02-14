@@ -17,3 +17,26 @@
     width: 100%;
   }
 }
+
+/* Links Animations */
+.contact-linkedin, .contact-github, .contact-email {
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-linkedin:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  transform: scale(1.1);
+  color: #0E76A8;
+}
+
+.contact-github:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  transform: scale(1.1);
+  color: yellowgreen;
+}
+
+.contact-email:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  transform: scale(1.1);
+  color: #EA4335;
+}
