@@ -6,6 +6,7 @@ const Technologies = () => {
   return (
     <section className="row text-center pt-3 shifted-row">
       <div className="col-12 col-md-6 col-lg-3">
+        {/* Languages Card */}
         <TechCard
           title="Languages"
           cardText={["HTML5", "CSS3", "JavaScript", "SQL"]}
@@ -14,6 +15,7 @@ const Technologies = () => {
         />
       </div>
       <div className="col-12 col-md-6 col-lg-3">
+        {/* Front End Tools Card */}
         <TechCard
           title="Front End Tools"
           cardText={["React", "Bootstrap", "Tailwind", "jQuery"]}
@@ -22,6 +24,7 @@ const Technologies = () => {
         />
       </div>
       <div className="col-12 col-md-6 col-lg-3">
+        {/* Back End Tools Card */}
         <TechCard
           title="Back End Tools"
           cardText={["Node.js", "Express.js", "MySQL", "MongoDB"]}
@@ -30,6 +33,7 @@ const Technologies = () => {
         />
       </div>
       <div className="col-12 col-md-6 col-lg-3">
+        {/* Development Tools Card */}
         <TechCard
           title="Development"
           cardText={["Github", "VSCode", "Heroku", "OAuth 2"]}

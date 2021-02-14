@@ -8,6 +8,7 @@ import './App.css';
 function App() {
   const [page, setPage] = useState("home")
 
+  // When the app mounts, check the page location
   useEffect(() => {
     if (window.location.pathname === "/portfolio") {
       setPage("portfolio")
