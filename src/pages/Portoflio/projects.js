@@ -195,6 +195,51 @@ const projects = {
     repoLink: "https://github.com/jdmarty/codeQuiz",
     deployedLink: "https://jdmarty.github.io/codeQuiz/",
   },
+
+  consoleDotBlog: {
+    title: "Console Dot Blog",
+    image: {
+      src: "consoleDotBlog",
+      alt: "Console Dot Blog",
+    },
+    description:
+      "Simple CMS Style blog where users can post their own tech related articles and comment on existing posts after creating an account",
+    descriptionCont:
+      "Sample Account | email: guest@gmail.com | password: P@ssword12345",
+    tech: [
+      {
+        type: "image",
+        alt: "MySQL",
+        src:
+          "https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white",
+      },
+      {
+        type: "image",
+        alt: "NodeJS",
+        src:
+          "https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white",
+      },
+      {
+        type: "image",
+        alt: "Express",
+        src:
+          "https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge",
+      },
+      {
+        type: "image",
+        alt: "Heroku",
+        src:
+          "https://img.shields.io/badge/heroku%20-%23430098.svg?&style=for-the-badge&logo=heroku&logoColor=white",
+      },
+      {
+        type: "span",
+        text: "Handlebars",
+        class: "featured-tech-span handlebars",
+      },
+    ],
+    repoLink: "https://github.com/jdmarty/consoledotblog",
+    deployedLink: "https://still-crag-96450.herokuapp.com/",
+  },
 };
 
 export default projects;
