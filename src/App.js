@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // Pages
 import Home from "./pages/Home"
 import Portfolio from "./pages/Portoflio"
@@ -24,12 +24,18 @@ function App() {
     <div className="App">
       <Router>
         <Header page={page} />
-        <Route
-          exact
-          path={["/MyReactPortfolio", "/MyReactPortfolio/home"]}
-          component={Home}
-        />
-        <Route exact path="/MyReactPortfolio/portfolio" component={Portfolio} />
+        <Switch>
+          <Route
+            exact
+            path={["/MyReactPortfolio", "/MyReactPortfolio/home"]}
+            component={Home}
+          />
+          <Route
+            exact
+            path="/MyReactPortfolio/portfolio"
+            component={Portfolio}
+          />
+        </Switch>
         <Footer />
       </Router>
     </div>
