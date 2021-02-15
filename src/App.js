@@ -14,6 +14,7 @@ function App() {
 
   // When the app mounts, check the page location
   useEffect(() => {
+    console.log(process.env.PUBLIC_URL)
     if (window.location.pathname === "/MyReactPortfolio/portfolio") {
       setPage("portfolio")
     } else {

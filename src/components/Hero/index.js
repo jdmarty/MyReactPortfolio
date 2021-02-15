@@ -14,7 +14,7 @@ const Hero = () => {
             <div className="screen-box bg-secondary fade-in">
               <p className="screen-text text-white my-0 my-lg-2">My Projects</p>
               <a
-                href="/portfolio"
+                href="/MyReactPortfolio/portfolio"
                 id="screen-button"
                 className="btn btn-primary screen-button"
               >
