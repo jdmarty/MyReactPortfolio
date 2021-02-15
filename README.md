@@ -1,8 +1,8 @@
 # Josh's Responsive Portfolio
 
 ## Links
-- Deployed [https://jdmarty.github.io/MyPortfolioRedux/](https://jdmarty.github.io/MyPortfolioRedux/)
-- Repository [https://github.com/jdmarty/MyPortfolioRedux](https://github.com/jdmarty/MyPortfolioRedux)
+- Deployed [https://jdmarty.github.io/MyReactPortfolio/](https://jdmarty.github.io/MyReactPortfolio/)
+- Repository [https://github.com/jdmarty/MyReactPortfolio](https://github.com/jdmarty/MyReactPortfolio)
 
 ## About
 
