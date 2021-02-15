@@ -28,7 +28,7 @@ function App() {
         <Switch>
           <Route
             exact
-            path={["/", "//home"]}
+            path={["/", "/home"]}
             component={Home}
           />
           <Route
