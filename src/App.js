@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // Pages
 import Home from "./pages/Home"
 import Portfolio from "./pages/Portoflio"
+import NoMatch from "./pages/NoMatch"
 // Permanent Components
 import Header from "./components/Header"
 import Footer from "./components/Footer"
@@ -35,6 +36,7 @@ function App() {
             path="/MyReactPortfolio/portfolio"
             component={Portfolio}
           />
+          <Route component={NoMatch} />
         </Switch>
         <Footer />
       </Router>
