@@ -23,17 +23,17 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Header page={page} />
         <Switch>
           <Route
             exact
-            path={["/MyReactPortfolio", "/MyReactPortfolio/home"]}
+            path={["/", "//home"]}
             component={Home}
           />
           <Route
             exact
-            path="/MyReactPortfolio/portfolio"
+            path="/portfolio"
             component={Portfolio}
           />
           <Route component={NoMatch} />

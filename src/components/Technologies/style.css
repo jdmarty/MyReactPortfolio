@@ -14,6 +14,10 @@
   .tech-card {
     display: block;
   }
+
+  .fade-rise1, .fade-rise2, .fade-rise3, .fade-rise4 {
+    animation-delay: 0s;
+  }
 }
 
 .tech-card-footer {
