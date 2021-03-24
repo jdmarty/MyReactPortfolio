@@ -8,7 +8,7 @@ const Qualifications = () => {
       <article className="col-12 pb-5 pt-3 px-5">
         <h3>Full Stack Web Development Bootcamp Certificate - UC Irvine</h3>
         <p className="lead">
-          I specialized in building APIs, server-side applications, and
+          I specialized in building APIs, polished UI's, and
           databases to serve elegantly efficient applications
         </p>
         {/* Resume link */}

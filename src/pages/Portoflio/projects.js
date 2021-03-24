@@ -1,4 +1,49 @@
 const projects = {
+  huntersMark: {
+    title: "Hunter's Mark",
+    image: {
+      src: "huntersMark",
+      alt: "Hunter's Mark",
+    },
+    description:
+      "Full stack Dungeons and Dragons application for Game Masters that combines initiative tracking, positioning grids, stats reference, and a dice roller app into a single dashboard. This was my capstone project for the UCI Bootcamp on which I was the sole developer",
+    descriptionCont:
+      "Sample Account | email: sample@gmail.com | password: password123",
+    tech: [
+      {
+        type: "image",
+        alt: "React",
+        src:
+          "https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB",
+      },
+      {
+        type: "image",
+        alt: "Tailwind CSS",
+        src:
+          "https://img.shields.io/badge/tailwindcss%20-%2338B2AC.svg?&style=for-the-badge&logo=tailwind-css&logoColor=white",
+      },
+      {
+        type: "image",
+        alt: "NodeJS",
+        src:
+          "https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white",
+      },
+      {
+        type: "image",
+        alt: "Express",
+        src:
+          "https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge",
+      },
+      {
+        type: "image",
+        alt: "MongoDB",
+        src:
+          "https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white",
+      },
+    ],
+    repoLink: "https://github.com/jdmarty/actionSurge",
+    deployedLink: "https://hunters-mark.herokuapp.com/",
+  },
   dreamTeam: {
     title: "Dream Team",
     image: {
